@@ -1,8 +1,8 @@
 <?php
 //include_once 'config.inc.php';
-include 'topper.php';
-require_once 'connection.php';
-require_once 'classes.php';
+include 'Modules/topper.php';
+require_once 'Classes/connection.class.php';
+require_once 'Classes/option.class.php';
 options::show();
-include 'footer.php';
+include 'Modules/footer.php';
 ?>

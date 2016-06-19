@@ -5,7 +5,7 @@ class options{
             $show = Connection::getInstance()->connect();
             $stmt = $show->query('SELECT * from LaLa');
             echo '<div class="container"><table class="table"><thead><tr><th>ID</th><th>Имя</th><th>Фамилия</th><th>Оценка</th><th>Время добавления</th></tr></thead><tbody>';
-         echo '<form action="send.php" method="post"><tr>
+         echo '<form action="Modules/send.php" method="post"><tr>
             <td></td>
             <td><input class="form-control" type="text" name="Name"></td>
             <td><input class="form-control" type="text" name="Surname"></td>
@@ -20,14 +20,14 @@ while ($row = $stmt->fetch()) {
     echo '<td>'.$row['Surname'].'</td>';
     echo '<td>'.$row['Mark'].'</td>';
     echo '<td>'.$row['Time'].'</td>';
-     echo "<form action='delete.php' method='post'>
+     echo "<form action='Modules/delete.php' method='post'>
     <input type=hidden name=ID  value = '".$row['ID']."'>
-    <input  type =hidden name=del value=yes>
+    <input type=hidden name=del value=yes>
     <td><input type=submit class='btn btn-danger' value=Удалить></td>
     </form>";
     echo '</tr>';
     }
-                echo '<form action="update.php" method="post">
+                echo '<form action="Modules/update.php" method="post">
                 <tr>
                 <td><input class="form-control" size="5" name="ID" placeholder="Введите ID"></td>
                 <td><input class="form-control"  type="text" name="Name" placeholder="Введите имя"></td>
