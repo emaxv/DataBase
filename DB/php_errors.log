@@ -71,3 +71,76 @@
 [19-Jun-2016 10:08:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/update.php:0
 [19-Jun-2016 10:08:44 UTC] PHP   2. options::update() /home/ubuntu/workspace/DB/Modules/update.php:4
 [19-Jun-2016 10:08:44 UTC] PHP   3. Connection::connect() /home/ubuntu/workspace/DB/Classes/option.class.php:111
+[19-Jun-2016 14:45:19 UTC] PHP Warning:  include_once(config.inc.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DB/Classes/connection.class.php on line 2
+[19-Jun-2016 14:45:19 UTC] PHP Stack trace:
+[19-Jun-2016 14:45:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/send.php:0
+[19-Jun-2016 14:45:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/DB/Modules/send.php:2
+[19-Jun-2016 14:45:19 UTC] PHP Warning:  include_once(): Failed opening 'config.inc.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DB/Classes/connection.class.php on line 2
+[19-Jun-2016 14:45:19 UTC] PHP Stack trace:
+[19-Jun-2016 14:45:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/send.php:0
+[19-Jun-2016 14:45:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/DB/Modules/send.php:2
+[19-Jun-2016 14:45:19 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/DB/Classes/connection.class.php on line 21
+[19-Jun-2016 14:45:19 UTC] PHP Stack trace:
+[19-Jun-2016 14:45:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/send.php:0
+[19-Jun-2016 14:45:19 UTC] PHP   2. options::send() /home/ubuntu/workspace/DB/Modules/send.php:4
+[19-Jun-2016 14:45:19 UTC] PHP   3. Connection::connect() /home/ubuntu/workspace/DB/Classes/option.class.php:66
+[19-Jun-2016 14:45:24 UTC] PHP Warning:  include_once(config.inc.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DB/Classes/connection.class.php on line 2
+[19-Jun-2016 14:45:24 UTC] PHP Stack trace:
+[19-Jun-2016 14:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/delete.php:0
+[19-Jun-2016 14:45:24 UTC] PHP   2. require_once() /home/ubuntu/workspace/DB/Modules/delete.php:2
+[19-Jun-2016 14:45:24 UTC] PHP Warning:  include_once(): Failed opening 'config.inc.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DB/Classes/connection.class.php on line 2
+[19-Jun-2016 14:45:24 UTC] PHP Stack trace:
+[19-Jun-2016 14:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/delete.php:0
+[19-Jun-2016 14:45:24 UTC] PHP   2. require_once() /home/ubuntu/workspace/DB/Modules/delete.php:2
+[19-Jun-2016 14:45:24 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/DB/Classes/connection.class.php on line 21
+[19-Jun-2016 14:45:24 UTC] PHP Stack trace:
+[19-Jun-2016 14:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/delete.php:0
+[19-Jun-2016 14:45:24 UTC] PHP   2. options::delete() /home/ubuntu/workspace/DB/Modules/delete.php:4
+[19-Jun-2016 14:45:24 UTC] PHP   3. Connection::connect() /home/ubuntu/workspace/DB/Classes/option.class.php:50
+[19-Jun-2016 14:45:28 UTC] PHP Warning:  include_once(config.inc.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DB/Classes/connection.class.php on line 2
+[19-Jun-2016 14:45:28 UTC] PHP Stack trace:
+[19-Jun-2016 14:45:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/delete.php:0
+[19-Jun-2016 14:45:28 UTC] PHP   2. require_once() /home/ubuntu/workspace/DB/Modules/delete.php:2
+[19-Jun-2016 14:45:28 UTC] PHP Warning:  include_once(): Failed opening 'config.inc.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DB/Classes/connection.class.php on line 2
+[19-Jun-2016 14:45:28 UTC] PHP Stack trace:
+[19-Jun-2016 14:45:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/delete.php:0
+[19-Jun-2016 14:45:28 UTC] PHP   2. require_once() /home/ubuntu/workspace/DB/Modules/delete.php:2
+[19-Jun-2016 14:45:28 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/DB/Classes/connection.class.php on line 21
+[19-Jun-2016 14:45:28 UTC] PHP Stack trace:
+[19-Jun-2016 14:45:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/delete.php:0
+[19-Jun-2016 14:45:28 UTC] PHP   2. options::delete() /home/ubuntu/workspace/DB/Modules/delete.php:4
+[19-Jun-2016 14:45:28 UTC] PHP   3. Connection::connect() /home/ubuntu/workspace/DB/Classes/option.class.php:50
+[19-Jun-2016 16:03:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/DB/Classes/option.class.php on line 74
+[19-Jun-2016 16:03:32 UTC] PHP Stack trace:
+[19-Jun-2016 16:03:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/send.php:0
+[19-Jun-2016 16:03:32 UTC] PHP   2. options::send() /home/ubuntu/workspace/DB/Modules/send.php:4
+[19-Jun-2016 16:05:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/DB/Classes/option.class.php on line 74
+[19-Jun-2016 16:05:11 UTC] PHP Stack trace:
+[19-Jun-2016 16:05:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/send.php:0
+[19-Jun-2016 16:05:11 UTC] PHP   2. options::send() /home/ubuntu/workspace/DB/Modules/send.php:4
+[19-Jun-2016 16:06:47 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/DB/Classes/option.class.php on line 74
+[19-Jun-2016 16:06:47 UTC] PHP Stack trace:
+[19-Jun-2016 16:06:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/send.php:0
+[19-Jun-2016 16:06:47 UTC] PHP   2. options::send() /home/ubuntu/workspace/DB/Modules/send.php:4
+[19-Jun-2016 16:12:54 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/DB/Classes/option.class.php on line 54
+[19-Jun-2016 16:12:54 UTC] PHP Stack trace:
+[19-Jun-2016 16:12:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/delete.php:0
+[19-Jun-2016 16:12:54 UTC] PHP   2. options::delete() /home/ubuntu/workspace/DB/Modules/delete.php:4
+[19-Jun-2016 16:13:00 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/DB/Classes/option.class.php on line 96
+[19-Jun-2016 16:13:00 UTC] PHP Stack trace:
+[19-Jun-2016 16:13:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/update.php:0
+[19-Jun-2016 16:13:00 UTC] PHP   2. options::update() /home/ubuntu/workspace/DB/Modules/update.php:4
+[19-Jun-2016 16:16:53 UTC] PHP Fatal error:  Cannot redeclare class Connection in /home/ubuntu/workspace/DB/Classes/connection.class.php on line 2
+[19-Jun-2016 16:16:53 UTC] PHP Stack trace:
+[19-Jun-2016 16:16:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/send.php:0
+[19-Jun-2016 16:16:53 UTC] PHP   2. require() /home/ubuntu/workspace/DB/Modules/send.php:3
+[19-Jun-2016 16:18:28 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/DB/Classes/connection.class.php on line 23
+[19-Jun-2016 16:18:28 UTC] PHP Stack trace:
+[19-Jun-2016 16:18:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/update.php:0
+[19-Jun-2016 16:18:28 UTC] PHP   2. options::update() /home/ubuntu/workspace/DB/Modules/update.php:4
+[19-Jun-2016 16:18:28 UTC] PHP   3. Connection::connect() /home/ubuntu/workspace/DB/Classes/option.class.php:90
+[19-Jun-2016 16:18:30 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/DB/Classes/connection.class.php on line 23
+[19-Jun-2016 16:18:31 UTC] PHP Stack trace:
+[19-Jun-2016 16:18:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/delete.php:0
+[19-Jun-2016 16:18:31 UTC] PHP   2. options::delete() /home/ubuntu/workspace/DB/Modules/delete.php:4
+[19-Jun-2016 16:18:31 UTC] PHP   3. Connection::connect() /home/ubuntu/workspace/DB/Classes/option.class.php:50

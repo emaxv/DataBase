@@ -1,7 +1,9 @@
 <?php
 class Connection {
-	public static $user = 'emaxv';
-	public static $pass = '';
+	public static $user;
+	public static $pass;
+	public static $host;
+	public static $dbname;
 	private static $connection = null;
 	private $dbh = null;
 	private function __construct () { }
@@ -14,9 +16,10 @@ class Connection {
 		}
 	}
 	public function connect() {
+		$dsn = self::$host.  ";" . self::$dbname;
 		if (!(self::$connection->dbh instanceof PDO)) {
 			try {
-				$dsn = "mysql:host=localhost;dbname=c9";
+				
 				self::$connection->dbh = new PDO($dsn, self::$user, self::$pass);
 				self::$connection->dbh->exec("SET CHARACTER SET utf8");
 				self::$connection->dbh->setAttribute(PDO::ERRMODE_EXCEPTION, PDO::FETCH_ASSOC);

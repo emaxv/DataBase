@@ -1,7 +1,6 @@
 <?php
-   $user="emaxv";
+   $username="emaxv";
    $password="";
-   $host="localhost";
-   $dbname="c9";
-   
+   $hosting="mysql:host=localhost";
+   $DataBaseName="dbname=c9";
 ?>

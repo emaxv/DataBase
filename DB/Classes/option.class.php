@@ -63,7 +63,7 @@ while ($row = $stmt->fetch()) {
     
     public function send(){
         try {
-            $send = Connection::connect();
+            $send = Connection::getInstance()->connect();
             $Name = $_POST['Name'];
             $Surname = $_POST['Surname'];
             $Mark = $_POST['Mark'];
