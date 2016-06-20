@@ -144,3 +144,18 @@
 [19-Jun-2016 16:18:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/delete.php:0
 [19-Jun-2016 16:18:31 UTC] PHP   2. options::delete() /home/ubuntu/workspace/DB/Modules/delete.php:4
 [19-Jun-2016 16:18:31 UTC] PHP   3. Connection::connect() /home/ubuntu/workspace/DB/Classes/option.class.php:50
+[20-Jun-2016 14:49:58 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/DB/Classes/connection.class.php on line 23
+[20-Jun-2016 14:49:58 UTC] PHP Stack trace:
+[20-Jun-2016 14:49:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/update.php:0
+[20-Jun-2016 14:49:58 UTC] PHP   2. options::update() /home/ubuntu/workspace/DB/Modules/update.php:4
+[20-Jun-2016 14:49:58 UTC] PHP   3. Connection::connect() /home/ubuntu/workspace/DB/Classes/option.class.php:90
+[20-Jun-2016 14:50:00 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/DB/Classes/connection.class.php on line 23
+[20-Jun-2016 14:50:00 UTC] PHP Stack trace:
+[20-Jun-2016 14:50:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/delete.php:0
+[20-Jun-2016 14:50:00 UTC] PHP   2. options::delete() /home/ubuntu/workspace/DB/Modules/delete.php:4
+[20-Jun-2016 14:50:00 UTC] PHP   3. Connection::connect() /home/ubuntu/workspace/DB/Classes/option.class.php:50
+[20-Jun-2016 14:50:01 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/DB/Classes/connection.class.php on line 23
+[20-Jun-2016 14:50:01 UTC] PHP Stack trace:
+[20-Jun-2016 14:50:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/DB/Modules/delete.php:0
+[20-Jun-2016 14:50:01 UTC] PHP   2. options::delete() /home/ubuntu/workspace/DB/Modules/delete.php:4
+[20-Jun-2016 14:50:01 UTC] PHP   3. Connection::connect() /home/ubuntu/workspace/DB/Classes/option.class.php:50

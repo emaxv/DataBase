@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(empty($_SESSION['username']))
+{
+    header("Location: Forms/enter.form.php");
+}
+?>
 <html>
 <head>
 <title>Успеваемость</title>
@@ -9,6 +16,7 @@
 </head>
 <body>
     <div class="container">
+        <a href="Modules/logout.php" class="btn btn-danger navbar-btn btn-lg pull-right" role="button">Logout</a>
         <div class="page-header" align="center">
             <h1>Геометрия</h1>
         </div>
